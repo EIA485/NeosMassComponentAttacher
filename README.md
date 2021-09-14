@@ -1,5 +1,5 @@
 # MassComponentAttacher
-A simple plugin to attach large numbers of components.
+A simple plugin to attach a component to all children of a slot. there is a bool to set if you also want recessive children.
 
 ## Installation
 1. download [MassComponentAttacher.dll](https://github.com/eia485/NeosMassComponentAttacher/releases/latest/download/MassComponentAttacher.dll)
