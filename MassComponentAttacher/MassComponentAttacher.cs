@@ -38,7 +38,7 @@ namespace MassComponentAttacher
 					Attach(type, slot);
 					i++;
 				});
-				button.LabelText = $"attached {i} Components";
+				button.LabelText = $"attached {i} components";
 			}
 			else
 			{
@@ -46,7 +46,7 @@ namespace MassComponentAttacher
 				{
 					Attach(type, TargetSlot.Target[i]);
 				}
-				button.LabelText = $"attatched {TargetSlot.Target.ChildrenCount} components";
+				button.LabelText = $"attached {TargetSlot.Target.ChildrenCount} components";
 			}
 
 		}
